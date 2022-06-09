@@ -24,11 +24,23 @@ HTTP API디자인에는 bEST Practice가 존재
 요청: 1번 사용자 정보 삭제      메소드:DELETE
 요청: 1번 사용자 정보 조회       메소드: GET
 
+URL (Uniform Resource Locator): 파일이름 들어가 있음 ex) ex) ~.html
+URI (Uniform Resource Identifier): search?q=codestates 처럼 쿼리와 path가 있음 
+URI가 URL 품고 있음 
+
+
+
+URL Path = www.naver.com / 여기자리 위치 알려줌 (서버의 폴더를 진입하거나 파일을 요청)
+Host : URL Path 
+
 ip (internet protocol): 인터넷상에서 사용하는 주소체계 
 ipv4: 네덩이의 숫자로 구분되는 주소체계 0~255개  2^32개 
 ipv6: ipv4 한계를 넘어서기 위해 출시 2^128개의 주소표현가능 
 
 포트: ip주소가 가르키는 pc에 접속할 수 있는 통로 (로컬 pc ip뒤에 표현)
+포트 명시하지 않는경우는: https는 443 http는 80쓴다 너무 자주 쓰기 때문에 생략가능 (자동으로 생김)
+
+
 
 Dmain name: 특정 사이트 진입할때 ip주소 대신에 사용하는 주소
 dns: 도메인 네임과 ip주소 매칭하는 것 도메인이름과 ip주소를 확인하는 작업 
@@ -59,6 +71,9 @@ ex) 검색하기 위해 구글 접속하면 나오는 화면
 SSR: 웹페이지를 브라주에 랜더링하는 대신에 서버에서 랜더링 
 
 CSR: SSR과 반대 클라이언트에서 페이지를 랜더링 
+
+
+
 
 
 
