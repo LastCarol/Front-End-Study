@@ -44,7 +44,7 @@ CREAT는 POST
 READ는 GET
 UPDATE는 PUT(전체내용), PATCH(부분내용)
 DELETE는 delete 
-
+ 
 http메서드 사용 유의사항 
 1. get 메서드는 서버의 데이터를 변화시키지 않는 요청에 사용해야함 
 2. post 메서드는 요청마다 새로운 리소스를 생성하고 put메서드는 요청마다 같은 리소스를 반환해야함 (멱등성 유의)
